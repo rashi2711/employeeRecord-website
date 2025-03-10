@@ -4,7 +4,7 @@ const dbConnect = require("./config/database");
 const userRoutes = require("./routes/user");
 const app = express();
 var cors = require("cors");
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4001;
 
 app.use(
   cors({
